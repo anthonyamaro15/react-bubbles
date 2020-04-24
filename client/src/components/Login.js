@@ -1,7 +1,6 @@
 import React from "react";
 import { Formik, Form, Field } from "formik";
 import { useHistory } from "react-router-dom";
-import { axiosWithAuth } from "../utils/axiosWithAuth";
 import axios from "axios";
 
 const Login = () => {
@@ -10,6 +9,7 @@ const Login = () => {
   const history = useHistory();
   return (
     <div className="MainForm">
+      <h1>Log in</h1>
       <Formik
         initialValues={{ username: "", password: "" }}
         onSubmit={(values, { resetForm }) => {
