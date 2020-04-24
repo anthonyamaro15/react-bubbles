@@ -97,3 +97,25 @@ form {
     margin-top: 16px;
   }
 }
+
+.AddColor {
+  width: 100%;
+  margin: 10rem auto 3rem;
+
+  input {
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 0.3rem;
+  }
+
+  button {
+    display: block;
+    padding: 0.3rem 2rem;
+    font-size: 1.1rem;
+    margin: 2rem auto;
+    text-align: center;
+    width: 50%;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
