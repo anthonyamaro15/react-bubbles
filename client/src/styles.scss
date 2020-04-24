@@ -14,6 +14,7 @@ body,
   font-family: "Montserrat", sans-serif;
   text-align: center;
   display: flex;
+  margin-top: 3rem;
 
   svg {
     height: 100%;
@@ -24,16 +25,24 @@ body,
   height: 100%;
 }
 
+.wrapper {
+  display: flex;
+}
+
 .bubble-wrap {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  margin-left: 20rem;
+  text-align: center;
 }
 
 .colors-wrap {
   height: 100%;
   width: 300px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  //   border: 1px solid red;
+  margin-left: 3rem;
 
   ul {
     list-style: none;
@@ -95,5 +104,31 @@ form {
     color: white;
     padding: 3px 8px;
     margin-top: 16px;
+  }
+}
+
+.AddColor {
+  width: 100%;
+  margin: 3rem auto 3rem;
+  display: flex;
+  position: absolute;
+  top: 3rem;
+  left: 60%;
+
+  input {
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 0.3rem;
+  }
+
+  button {
+    display: block;
+    padding: 0.3rem 2rem;
+    font-size: 1.1rem;
+    margin: 2rem auto;
+    text-align: center;
+    width: 60%;
+    border-radius: 5px;
+    cursor: pointer;
   }
 }
